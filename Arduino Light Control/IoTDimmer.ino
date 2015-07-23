@@ -43,10 +43,14 @@
 #define SIGNIFICANCE_3              7
 #define SIGNAL_PIN                  8
 #define ETHERNET_SDCARD_SELECTOR    4
-byte    MAC_ADDRESS[]               =   {0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED};
+
+//byte    MAC_ADDRESS[]               =   {0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED};
+byte    MAC_ADDRESS[]               =   { 0, 0}; //place your mac address here.
+//char*   DEVICE_NAME                 =   "device1";    
+char*   DEVICE_NAME                 =   ""; //select your own device
 char*   CONTROL_SERVER_ADDRESS      =   "10.106.201.65";    
 char*   VALID_TOKEN                 =   "{letmein";    
-char*   DEVICE_NAME                 =   "device1";    
+
 int     CONTROL_SERVER_PORT         =   9000;
 
 // Global Variables.
