@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dimmer</string>
+    <string name="app_title">IOT DIMMER</string>
+    <string name="host">http://iot-prod-vm-wus.cloudapp.net:8080/iotdimmer</string>
+</resources>
