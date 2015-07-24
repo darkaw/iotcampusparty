@@ -48,7 +48,7 @@
 byte    MAC_ADDRESS[]               =   { 0, 0}; //place your mac address here.
 //char*   DEVICE_NAME                 =   "device1";    
 char*   DEVICE_NAME                 =   ""; //select your own device
-char*   CONTROL_SERVER_ADDRESS      =   "10.106.201.65";    
+char*   CONTROL_SERVER_ADDRESS      =   "iot-prod-vm-wus.cloudapp.net";    
 char*   VALID_TOKEN                 =   "{letmein";    
 
 int     CONTROL_SERVER_PORT         =   9000;
